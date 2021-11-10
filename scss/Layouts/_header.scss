@@ -60,9 +60,12 @@
                 }
             }
             &:hover {
-                // z-index: 10;
-                // color: $color-pink-1;
-                // box-shadow: 0 0 0 1px $color-pink-1 inset;
+                z-index: 10;
+                color: $color-pink-1;
+                box-shadow: 0 0 0 1px $color-pink-1 inset;
+                a {
+                    color: #000000;
+                }
             }
         }
 

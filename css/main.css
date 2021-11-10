@@ -101,6 +101,17 @@ body {
   margin-right: 2px;
 }
 
+#header .topBarInMenuCell .btButtonWidget:hover {
+  z-index: 10;
+  color: #b61984;
+  -webkit-box-shadow: 0 0 0 1px #b61984 inset;
+          box-shadow: 0 0 0 1px #b61984 inset;
+}
+
+#header .topBarInMenuCell .btButtonWidget:hover a {
+  color: #000000;
+}
+
 #header .topBarInMenuCell .btIconWidget {
   margin-left: 1em;
 }
@@ -159,6 +170,7 @@ body {
   overflow: hidden;
   -webkit-transition: all .6s;
   transition: all .6s;
+  height: 180px;
 }
 
 .products .products__item .products__img img {
@@ -166,7 +178,7 @@ body {
   width: 100%;
 }
 
-.products .products__item .products__img:hover {
+.products .products__item .products__img img:hover {
   -webkit-transform: scale3d(1.05, 1.05, 1.05);
           transform: scale3d(1.05, 1.05, 1.05);
 }
