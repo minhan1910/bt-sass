@@ -188,7 +188,7 @@ body {
 }
 
 .bg__bottom__products {
-  background-image: url(../../images/Wave_White_bottom_right_shape_01.png);
+  background-image: url(./../images/Wave_White_bottom_right_shape_01.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 361px;
